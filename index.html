@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="i8n">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS i8n Localisation</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+<script data-require="angular.js@1.5.x" src="https://code.angularjs.org/1.5.8/angular.js" data-semver="1.5.8"></script>
+    <script src="https://rawgit.com/angular-translate/bower-angular-translate/master/angular-translate.min.js"></script>
+    <script src="https://rawgit.com/angular-translate/bower-angular-translate-loader-static-files/master/angular-translate-loader-static-files.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    
+    {{'Hello'|translate}}-{{'Welcome'|translate}}
+      <button ng-click="changeLanguage('en')">English </button>
+      <button ng-click="changeLanguage('es')">Spanish </button>
+  </body>
+
+</html>
