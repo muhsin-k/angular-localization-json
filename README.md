@@ -1,4 +1,5 @@
-# angular-i8nlocalisation-json
+# angular-localization-json
+
 Angularjs localisation using  json language files dynamically
 
 
